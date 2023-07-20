@@ -127,6 +127,7 @@ input:hover {
   background-color: #ecf8f9;
   height: 48px;
   border-radius: 9px;
+  overflow: hidden;
 }
 .kind {
   background-color: #ecf8f9;
