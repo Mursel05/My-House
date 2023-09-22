@@ -3,14 +3,10 @@ import Houses from "./houses";
 import Item from "./Item";
 const NewHouses = () => {
   const [data, setData] = useState("");
-  const check = () => {
-    return Houses.filter((item) => {
-      return item.old === false;
-    });
-  };
   useEffect(() => {
-    setData(check());
+    setData(Houses.filter((item) => item.old === false));
   }, []);
+
   return (
     <div className="items">
       <Item data={data} />

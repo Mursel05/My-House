@@ -1,20 +1,18 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Cart from "../components/Cart";
 import Footer from "../components/Footer";
-import Main from "../components/Main";
 import Header from "../components/Header";
-
-
-
-const home = () => {
+const cart = () => {
   return (
     <div>
       <Navbar />
       <Header/>
-      <Main />
+
+      <Cart />
       <Footer />
     </div>
   );
 };
 
-export default home;
+export default cart;

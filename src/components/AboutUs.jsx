@@ -9,9 +9,14 @@ const AboutUs = () => {
         <hr className="line" />
       </div>
       <span>
-        Established in 2008, The My House Group takes pride in providing our
-        local and overseas clients with the highest possible level of service,
-        advice, support and assistance with all their property requirements
+      Who We Are: <br />
+      
+        My House is a premier residential real estate company committed
+        to excellence in the art of homebuilding. With years of experience in
+        the industry, we have earned a reputation for delivering top-quality
+        homes that stand the test of time. Our team of skilled architects,
+        designers, and craftsmen works collaboratively to ensure that every
+        detail of your dream home is brought to life.
       </span>
     </div>
   );

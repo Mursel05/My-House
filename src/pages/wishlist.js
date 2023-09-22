@@ -1,20 +1,19 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Main from "../components/Main";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Wishlist from "../components/Wishlist";
 
-
-
-const home = () => {
+const wishlist = () => {
   return (
     <div>
+      {" "}
       <Navbar />
-      <Header/>
-      <Main />
+      <Header />
+      <Wishlist />
       <Footer />
     </div>
   );
 };
 
-export default home;
+export default wishlist;

@@ -25,11 +25,13 @@ const Main = () => {
   };
   return (
     <div className="main">
-      <span className="question">DO YOU WANT TO BUY A HOUSE?</span>
+      <span className="question">
+        Building Dreams Together: Where Your Perfect Home Awaits!
+      </span>
       <span className="explanation">
         {" "}
-        WE ARE THE LARGEST REAL ESTATE AGENCY WITH APPROXIMATELY 40,000
-        PROPERTIES FOR SALE
+        Welcome to My house, where we're dedicated to creating extraordinary
+        homes that bring your vision to life.
       </span>
       <Search />
       <div className="dropdown">
